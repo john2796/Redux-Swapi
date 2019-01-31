@@ -1,13 +1,10 @@
 import React, { Component } from "react";
-
-import { CharacterListView } from "./views";
 import "./styles/App.css";
+import CharacterListView from "./views/CharacterListView";
 
 class App extends Component {
   render() {
-    // init
     return <CharacterListView />;
   }
 }
-
 export default App;
