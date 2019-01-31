@@ -5,6 +5,7 @@ import "./styles/App.css";
 
 class App extends Component {
   render() {
+    // init
     return <CharacterListView />;
   }
 }
